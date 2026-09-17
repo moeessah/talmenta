@@ -8,5 +8,5 @@
 .video-title.reveal span{opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .8s var(--ease)}
 .video-title.reveal.in span{opacity:1;transform:none}
 .video-title.reveal.in span:nth-child(1){transition-delay:.05s}
-@media(prefers-color-scheme:light){.video-title .hero-accent{color:var(--ink)}}
+html[data-theme="light"] .video-title .hero-accent{color:var(--ink)}
 @media(max-width:900px){.hero h1.video-title{font-size:clamp(44px,9vw,84px);line-height:1.02;letter-spacing:-.04em}.hero h1 .hero-media-inline{display:none}.video-title .hero-line{display:block;height:auto}}
