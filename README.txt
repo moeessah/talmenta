@@ -2,8 +2,8 @@ TALMENTA SPLIT
 
 Pages
 - index.html = video hero homepage
-- talmenta-glass.html = glass version
-- talmenta-plain.html = plain version
+- glass.html = glass version
+- plain.html = plain version
 
 Shared assets
 - css/talmenta-shared.css = shared site styling + system light/dark theme
